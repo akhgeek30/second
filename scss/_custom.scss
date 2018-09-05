@@ -8,6 +8,22 @@ $size: 10em;
 	border: $bor;
 	width:100%;
 }
+.carousel-item{
+
+.carousel-caption{
+display:block;
+text-align: center;
+left:700px;
+margin-top:193.5px;
+max-width:520px;
+padding-bottom: 300px;
+}
+
+}
+.second-hero{
+	position: 0px;
+	left:100px !important;
+}
 .card-deck{
 	@include layout;
 	margin:0px !important;
@@ -33,9 +49,23 @@ $size: 10em;
 .container {
 	padding-top: 20px;
 }
+.mail{
+	padding-top:100px;
+}
 .form-group{
 	padding-left:280px;
 	width:75%;
+	opacity: 0.20;
+}
+.btn-primary{
+	background-color: transparent;
+	border-color: grey;
+}
+.modal-footer{
+	.btn-primary{
+	background-color: green;
+	border-color:green;
+}
 }
 .foot{
 	background: $foot-bg;
