@@ -10,6 +10,7 @@ $size: 10em;
 }
 .card-deck{
 	@include layout;
+	margin:0px !important;
 }
 .card{
 	@include layout;
