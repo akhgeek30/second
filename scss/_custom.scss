@@ -1,0 +1,44 @@
+$bg: #f0f3f4;
+$foot-bg:#F7F9F9;
+$bor: none;
+$size: 10em;
+
+@mixin layout{
+	background:#f0f3f4;
+	border: $bor;
+	width:100%;
+}
+.card-deck{
+	@include layout;
+}
+.card{
+	@include layout;
+}
+.card-img-top{
+	width:$size; 
+	margin:auto;
+}
+.card-body{
+	background:$bg;
+	@include layout;
+}
+.display-5 {
+	font-size: 3rem;
+}
+.navbar {
+	background: white;
+}
+.container {
+	padding-top: 20px;
+}
+.form-group{
+	padding-left:280px;
+	width:75%;
+}
+.foot{
+	background: $foot-bg;
+}
+.breadcrumb{
+	background-color: inherit;
+}
+

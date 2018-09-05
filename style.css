@@ -1,0 +1,56 @@
+.display-5{
+	font-size: 3rem;
+}
+.carousel-caption{
+display:block;
+text-align: center;
+left:700px;
+margin-top:193.5px;
+max-width:520px;
+box-sizing: border-box;
+padding-bottom: 300px;
+}
+.second-hero{
+box-sizing:border-box;
+height:308px;
+left:167.688px;
+letter-spacing:0.32px;
+line-height:21px;
+margin-top:193.5px;
+max-width:520px;
+pointer-events:auto;
+position:absolute;
+text-size-adjust:100%;
+visibility:visible;
+padding-bottom:300px;
+}
+.navbar{
+	background: white;
+}
+.card-deck{
+	background:#F0F3F4;
+}
+.card{
+	background:#F0F3F4;
+	border:none;
+}
+.card-img-top{
+	width:10em;
+	height:auto;
+	vertical-align: middle;
+	margin:auto;
+}
+.card-img-overlay .signup{
+}
+.container{
+	padding-top: 20px;
+}
+.breadcrumb{
+	background:#ECF0F1;
+}
+.foot{
+	background:#F7F9F9;
+}
+.form-control{
+	width:35%;
+}
