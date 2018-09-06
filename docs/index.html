@@ -15,7 +15,10 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <a class="navbar-brand" href="#">
           <img src="img/oneplus.png" width="30" height="30" alt="logo">
-        </a>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -24,8 +27,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accessories</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Cases &amp Protection</a>
-                  <a class="dropdown-item" href="#">Power &amp Cables</a>
+                  <a class="dropdown-item" href="#">Cases &amp; Protection</a>
+                  <a class="dropdown-item" href="#">Power &amp; Cables</a>
                   <a class="dropdown-item" href="#">Audio</a>
                   <a class="dropdown-item" href="#">Bundles</a>
                   <a class="dropdown-item" href="#">Gear</a>
@@ -39,7 +42,7 @@
             <a class="nav-link" href="#">Community</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Experience &amp Retail</a>
+            <a class="nav-link" href="#">Experience &amp; Retail</a>
           </li>
         </ul>
       </div>
@@ -92,19 +95,22 @@
       <div class="card">
           <img class="card-img-top" src="img/card_1.jpg" alt="engadget">
           <div class="card-body">
-              <p class="card-text">"OnePlus 6 has a gorgeous new design coupled with powerful specs."</p>
+              <p class="card-text">"OnePlus 6 has a gorgeous new design coupled with powerful specs."
+                <br>The OnePlus 6 has hit most of the sweet spots: This is a uniquely gorgeous device with intuitive features, as well as solid battery life and a great camera. Then I remember that attractive price. If you're after a pure numbers game, the OnePlus 6 dominates the industry.</p>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="img/card_2.jpg" alt="Android Central">
           <div class="card-body">
-              <p class="card-text">"OnePlus 6 is a phone that delivers in almost every way."</p>
+              <p class="card-text">"OnePlus 6 is a phone that delivers in almost every way."<br>
+              The phone may look familiar, but the quality is second to none for this price.</p>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="img/card_3.jpg" alt="Mashable">
           <div class="card-body">
-              <p class="card-text">"OnePlus 6: Flagship Killer. OnePlus is no longer the rookie you can ignore."</p>
+              <p class="card-text">"OnePlus 6: Flagship Killer. OnePlus is no longer the rookie you can ignore."<br>
+              the OnePlus 6 gets you performance that crushes Samsung's Galaxy S9, near stock Android without bloatware, gigabit connectivity, one of the best edge-to-edge displays, extraordinary battery life, and a headphone jack.</p>
           </div>
         </div>
     </div>
@@ -142,22 +148,59 @@
     Form to signup -->
   <section>
     <div class="card">
-        <img class="card-img" src="img/pc-bg.jpg" alt="bg image" height="400px">
+        <img class="card-img bg" src="img/pc-bg.jpg" alt="bg image" style="height:400px">
         <div class="container card-img-overlay">
           <div class="row">
             <div class="col">
-              <h5 class="display-5 text-center text-white">Enter Your Email To Book</h5>
+              <h5 class="mail display-5 text-white text-center">Enter Your Email To Book</h5>
               <form>
               <div class="form-group align-self-center">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter address">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter address">
               </div>
               </form>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Click to Book
+              </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Do you wish to continue</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Click Yes to confirm.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                      <button type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
             </div>  
           </div>
         </div>
     </div>
   </section>
-
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
   <!-- Section Categories-->
   <section>
     <div class="container">
@@ -202,7 +245,7 @@
         </div>
       </div>
   </section>
-
+  
   <!-- Footer Section-->
   <footer class="foot">
     <div class="container">
