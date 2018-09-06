@@ -53,13 +53,14 @@ padding-bottom: 300px;
 	padding-top:100px;
 }
 .form-group{
-	padding-left:280px;
+	padding-left:24%;
 	width:75%;
 	opacity: 0.20;
 }
 .btn-primary{
 	background-color: transparent;
 	border-color: grey;
+	margin-left: 30em;
 }
 .modal-footer{
 	.btn-primary{
@@ -73,4 +74,19 @@ padding-bottom: 300px;
 .breadcrumb{
 	background-color: inherit;
 }
-
+@media screen and (max-width:960px){
+	.carousel-caption{
+		text-align: center;
+	}
+}
+@media screen and (max-width:580px){
+	.form-group{
+		margin-left:0.5em;
+	}
+	.btn-primary{
+		margin-left:5em;
+	}
+	.mail{
+		font-size: 30px;
+	}
+}
